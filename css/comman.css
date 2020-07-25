@@ -1,0 +1,350 @@
+/* ---------------------------comman.css -----------------------------*/
+
+/* ----------* Navbar *-------------- */
+
+.navbar {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.navbar-brand {
+  width: 15%;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.dropdown-menu {
+  background-color: rgb(17, 17, 17);
+}
+
+.dropdown .carot {
+  margin-left: -10px;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* ------------------*Font *------------------------- */
+
+.heading {
+  font-size: 5vw;
+  font-weight: bolder;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 3vw;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sub-title {
+  font-size: 2.5vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2vw;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ----------* Div-fix (This will have full width on mobile devices)*-------------- */
+
+.div-xxl-full {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.div-xl-full {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.div-lgr-full {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.div-lg-full {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.div-md-full {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.div-smr-full {
+  width: 47%;
+  margin: 0 auto;
+}
+
+.div-sm-full {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.div-xs-full {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.div-xxs-full {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.div-smr-increase {
+  width: 35%;
+  margin: 0 auto;
+}
+
+/* -----------div display-------- */
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* --------------------* Colour *----------------------- */
+
+.bg-black {
+  background-color: black;
+  color: white;
+}
+
+.bg-brown {
+  background-color: rgb(39, 28, 5);
+}
+
+/* ----------* Text Alignment *-------------- */
+
+.center {
+  margin: auto 0;
+  text-align: center;
+}
+
+.border-radius-0 {
+  border-radius: 0 !important;
+}
+
+.border-radius-0:hover {
+  border-radius: 30px !important;
+}
+
+/* --------------------*button *----------------------- */
+
+.btn {
+  margin-top: 20px;
+  border-radius: 30px;
+  transition: all 0.5s ease 0s;
+}
+
+.btn:hover {
+  border-radius: 0;
+}
+
+/* --------------------- form----------------------- */
+
+/* --------------------- Effects----------------------- */
+
+.parallax-img {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 82vh;
+}
+
+.parallax-txt-img {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ------------------Social icons------------------ */
+
+.social-icons a {
+  margin: auto 20px;
+}
+
+/* --------------------------------big windows-------------------------- */
+
+@media screen and (max-device-width: 1100px) {
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 900px) {
+  /* ----------* Navbar *-------------- */
+  .navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .navbar-brand {
+    width: 22%;
+  }
+  /* ----------* Font*-------------- */
+  .heading {
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 4vw;
+  }
+  .sub-title {
+    font-size: 2.8vw;
+  }
+  .description {
+    font-size: 1.8vw;
+  }
+  /* ----------* Div*-------------- */
+  .div-smr-increase {
+    width: 45%;
+  }
+  /* ----------*padding *-------------- */
+  .p-5 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 800px) {
+  /* ----------* Navbar *-------------- */
+  .navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 14px;
+  }
+  .navbar-brand {
+    width: 26%;
+  }
+  /* ----------* Font*-------------- */
+  .heading {
+    font-size: 6vw;
+  }
+  .title {
+    font-size: 4vw;
+  }
+  .sub-title {
+    font-size: 2.8vw;
+  }
+  .description {
+    font-size: 1.8vw;
+  }
+  /* ----------* Div*-------------- */
+  .div-smr-increase {
+    width: 50%;
+  }
+  /* ----------*padding *-------------- */
+  .p-5 {
+    padding-left: 25px !important;
+    padding-right: 25px !important;
+  }
+  /* ----------* Div *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* -------------------- mobile devices---------------------------- */
+
+@media screen and (max-width: 568px) {
+  /* ----------* Navbar *-------------- */
+  .navbar {
+    font-size: larger;
+  }
+  .navbar-brand {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .dropdown .carot {
+    margin-left: 20px;
+  }
+  .nav-link {
+    margin: 5px 0;
+  }
+  /* .collapse .nav-item {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .collapse .d-inline-flex {
+    margin: 0 auto;
+    margin-top: 20px;
+  } */
+  /* ----------* Font*-------------- */
+  .heading {
+    font-size: 9vw;
+  }
+  .title {
+    font-size: 7.5vw;
+  }
+  .sub-title {
+    font-size: 5.5vw;
+  }
+  .description {
+    font-size: 3.5vw;
+  }
+  /* ----------*Div-full *-------------- */
+  .div-xxl-full,
+  .div-xl-full,
+  .div-lgr-full,
+  .div-lg-full,
+  .div-md-full,
+  .div-smr-full,
+  .div-sm-full,
+  .div-xs-full,
+  .div-xxs-full {
+    width: 95%;
+  }
+  /* ----------* Div*-------------- */
+  .div-smr-increase {
+    width: 80%;
+  }
+  /* ----------*padding *-------------- */
+  .p-5,
+  .px-5 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .p-3,
+  .px-3 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  /* ----------* *-------------- */
+}

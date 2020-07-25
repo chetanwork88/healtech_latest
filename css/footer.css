@@ -1,0 +1,51 @@
+/* ---------------------------footer.css -----------------------------*/
+
+/* --------------------*footer *----------------------- */
+
+.subscribe-form input {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border: 1px solid white;
+  color: white;
+}
+
+.subscribe-form input :hover {
+  background-color: transparent;
+  border: 3px solid white;
+}
+
+.subscribe-form input:focus {
+  background-color: transparent;
+  border: 3px solid white;
+  text-align: center;
+  color: white;
+}
+
+/* --------------------* *----------------------- */
+
+/* --------------------------------big windows-------------------------- */
+
+@media only screen and (max-device-width: 1300px) {
+  /* ----------* font *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 900px) {
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 800px) {
+}
+
+/* -------------------- mobile devices---------------------------- */
+
+@media screen and (max-width: 568px) {
+}

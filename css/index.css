@@ -1,0 +1,150 @@
+/* ---------------------------index.css -----------------------------*/
+
+/* ----------*home image *-------------- */
+
+.home-img {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.home-img img {
+  width: 100%;
+  height: 87vh;
+}
+
+/* .home-img {
+  background-image: url('../images/home_img.PNG');
+} */
+
+/* ----------* Home Heading*-------------- */
+
+.home-heading .heading {
+  margin-top: 30px;
+}
+
+.home-heading .description {
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/* ----------*Home Intro *-------------- */
+
+.home-intro img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ------------*Reach At Us *-------------- */
+
+.reach-at-us {
+  background-image: url("../images/mechanical.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 500px;
+}
+
+.reach-at-us .social-icons a {
+  margin: auto 20px;
+}
+
+.reach-at-us input,
+.reach-at-us textarea {
+  background-color: transparent;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.reach-at-us input:hover,
+.reach-at-us textarea:hover {
+  background-color: transparent;
+  border-bottom: 3px solid white;
+}
+
+.reach-at-us input:focus,
+.reach-at-us textarea:focus {
+  background-color: transparent;
+  border-bottom: 3px solid white;
+  text-align: center;
+  color: white;
+}
+
+.reach-at-us .feedback-form {
+  padding: 40px;
+}
+
+/* --------------------* *----------------------- */
+
+/* --------------------* *----------------------- */
+
+/* --------------------------------big windows-------------------------- */
+
+@media only screen and (max-device-width: 1300px) {
+  /* ----------* font *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 900px) {
+  /* ----------*home image *-------------- */
+  .home-img img {
+    height: 40vh;
+  }
+  /* ----------*Home Intro *-------------- */
+  .home-intro img {
+    height: 100%;
+  }
+  .home-intro .text {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+  /* ----------* Reach At Us *-------------- */
+  .reach-at-us .feedback-form {
+    padding: 30px;
+  }
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 800px) {
+  /* ----------*home image *-------------- */
+  .home-img img {
+    height: 40vh;
+  }
+  /* ----------* Reach At Us *-------------- */
+  .reach-at-us .feedback-form {
+    padding: 20px;
+  }
+}
+
+/* -------------------- mobile devices---------------------------- */
+
+@media screen and (max-width: 568px) {
+  /* ----------*home image *-------------- */
+  .home-img img {
+    height: 27vh;
+  }
+  /* ----------*Home Intro *-------------- */
+  .home-intro {
+    padding-top: 10px;
+    padding-bottom: 50px;
+  }
+  .home-intro img {
+    width: 100%;
+    height: auto;
+  }
+  /* ----------*Reach At us *-------------- */
+  .contact-us {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}

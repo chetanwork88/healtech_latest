@@ -1,0 +1,69 @@
+/* ---------------------------pricing.css -----------------------------*/
+
+/* --------------------*Pricing *----------------------- */
+
+.pricing {
+    background-image: url('../images/plant.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+
+.div-xxs-price-full {
+    width: 23%;
+    margin: 0 auto;
+}
+
+.plan {
+    background-color: white;
+}
+
+/* --------------------* *----------------------- */
+
+/* --------------------------------big windows-------------------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    /* ----------* font *-------------- */
+    /* ----------* *-------------- */
+    /* ----------* *-------------- */
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 900px) {
+    /* --------------------*Pricing *----------------------- */
+    .div-xxs-price-full {
+        width: 40%;
+    }
+    .plan {
+        margin-bottom: 40px;
+    }
+    /* ----------* *-------------- */
+    /* ----------* *-------------- */
+    /* ----------* *-------------- */
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 800px) {
+    /* --------------------*Pricing *----------------------- */
+    .div-xxs-price-full {
+        width: 45%;
+    }
+    .plan {
+        margin-bottom: 40px;
+    }
+}
+
+/* -------------------- mobile devices---------------------------- */
+
+@media screen and (max-width: 568px) {
+    /* --------------------*Pricing *----------------------- */
+    .div-xxs-price-full {
+        width: 85%;
+    }
+    .plan {
+        margin-top: 40px;
+    }
+}

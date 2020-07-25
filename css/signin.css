@@ -1,0 +1,108 @@
+/* ---------------------------signin.css -----------------------------*/
+
+/* ----------* signin*-------------- */
+
+.sign-up-img {
+    background-image: url('../images/motor.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.log-in-img {
+    background-image: url('../images/home_contact.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sign-in {
+    background-color: white;
+}
+
+.div-signin-increase {
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* ----------*signin form *-------------- */
+
+.form-icon {
+    width: 20%;
+}
+
+.form-input {
+    width: 80%;
+}
+
+.sign-in input[type] {
+    width: 100%;
+    line-height: 200%;
+    border: none;
+    border-bottom: 1px solid black;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.sign-up input[type]:focus {
+    border-bottom: 2px solid #007bff;
+    text-align: center;
+}
+
+.sign-up .form-icon .fas {
+    color: #007bff;
+}
+
+.log-in input[type]:focus {
+    border-bottom: 2px solid #28a745;
+    text-align: center;
+}
+
+.log-in .form-icon .fas {
+    color: #28a745;
+}
+
+/* --------------------* *----------------------- */
+
+/* --------------------* *----------------------- */
+
+/* --------------------------------big windows-------------------------- */
+
+@media only screen and (max-device-width: 1300px) {
+    /* ----------* font *-------------- */
+    /* ----------* *-------------- */
+    /* ----------* *-------------- */
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 900px) {
+    /* ----------*sign in *-------------- */
+    .div-signin-increase {
+        width: 60%;
+        margin: 0 auto;
+    }
+    /* ----------* *-------------- */
+    /* ----------* *-------------- */
+    /* ----------* *-------------- */
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 800px) {
+    /* ----------*sign in *-------------- */
+    .div-signin-increase {
+        width: 70%;
+        margin: 0 auto;
+    }
+}
+
+/* -------------------- mobile devices---------------------------- */
+
+@media screen and (max-width: 568px) {
+    /* ----------*sign in *-------------- */
+    .div-signin-increase {
+        width: 95%;
+        margin: 0 auto;
+    }
+}

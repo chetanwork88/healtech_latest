@@ -1,0 +1,326 @@
+/* ---------------------------comman.css -----------------------------*/
+
+/* ----------* Navbar *-------------- */
+
+.navbar {
+  background-color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.navbar-brand {
+  width: 15%;
+}
+
+.navbar-brand img {
+  max-width: 100%;
+  max-height: 80%;
+}
+
+.dropdown-menu {
+  background-color: rgb(17, 17, 17);
+}
+
+.dropdown .carot {
+  margin-left: -10px;
+}
+
+.dropdown-item {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.dropdown-item:hover {
+  color: white;
+  background-color: black;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* ----------* Font Size*-------------- */
+
+.font-xxl {
+  font-size: 5vw;
+}
+
+.font-xl {
+  font-size: 4.5vw;
+}
+
+.font-lg {
+  font-size: 4vw;
+}
+
+.font-md {
+  font-size: 3vw;
+}
+
+.font-sm {
+  font-size: 2.5vw;
+}
+
+.font-xs {
+  font-size: 2vw;
+}
+
+.font-xxs {
+  font-size: 1.2vw;
+}
+
+/* ----------* Div*-------------- */
+
+.div-xxl {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.div-xl {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.div-lgr {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.div-lg {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.div-md {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.div-sm {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.div-xs {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.div-xxs {
+  width: 20%;
+  margin: 0 auto;
+}
+
+/* ----------* Div-fix (This will have full width on mobile devices)*-------------- */
+
+.div-xxl-full {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.div-xl-full {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.div-lgr-full {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.div-lg-full {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.div-md-full {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.div-sm-full {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.div-xs-full {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.div-xxs-full {
+  width: 20%;
+  margin: 0 auto;
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrap-reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+/* --------------------* Colour *----------------------- */
+
+.bg-black {
+  background-color: black;
+}
+
+/* ----------* Text Alignment *-------------- */
+
+.center {
+  margin: auto 0;
+  text-align: center;
+}
+
+/* --------------------* *----------------------- */
+
+/* --------------------------------big windows-------------------------- */
+
+@media only screen and (max-device-width: 1300px) {
+  /* ----------* font *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* -----------------------------ipad-pro-------------------------------- */
+
+@media screen and (max-width: 900px) {
+  /* ----------* Navbar *-------------- */
+  .navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .navbar-brand {
+    width: 22%;
+  }
+  /* ----------* Font Size*-------------- */
+  .font-xxl {
+    font-size: 5.2vw;
+  }
+  .font-xl {
+    font-size: 5vw;
+  }
+  .font-lg {
+    font-size: 4.5vw;
+  }
+  .font-md {
+    font-size: 3.5vw;
+  }
+  .font-sm {
+    font-size: 3vw;
+  }
+  .font-xs {
+    font-size: 2.5vw;
+  }
+  .font-xxs {
+    font-size: 1.8vw;
+  }
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* ------------------------------ipad--------------------------------- */
+
+@media screen and (max-width: 800px) {
+  /* ----------* Navbar *-------------- */
+  .navbar {
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 14px;
+  }
+  .navbar-brand {
+    width: 26%;
+  }
+  /* ----------* Font Size*-------------- */
+  .font-xxl {
+    font-size: 5.2vw;
+  }
+  .font-xl {
+    font-size: 5vw;
+  }
+  .font-lg {
+    font-size: 4.5vw;
+  }
+  .font-md {
+    font-size: 3.5vw;
+  }
+  .font-sm {
+    font-size: 3vw;
+  }
+  .font-xs {
+    font-size: 2.5vw;
+  }
+  .font-xxs {
+    font-size: 2vw;
+  }
+  /* ----------* Div *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+  /* ----------* *-------------- */
+}
+
+/* -------------------- mobile devices---------------------------- */
+
+@media screen and (max-width: 568px) {
+  /* ----------* Navbar *-------------- */
+  .navbar {
+    font-size: larger;
+  }
+  .navbar-brand {
+    width: 45%;
+    margin: 0 auto;
+  }
+  .dropdown .carot {
+    margin-left: 5px;
+  }
+  .nav-link {
+    margin: 5px 0;
+  }
+  /* .collapse .nav-item {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .collapse .d-inline-flex {
+    margin: 0 auto;
+    margin-top: 20px;
+  } */
+  /* ----------* Font Size*-------------- */
+  .font-xxl {
+    font-size: 6vw;
+  }
+  .font-xl {
+    font-size: 5vw;
+  }
+  .font-lg {
+    font-size: 4.5vw;
+  }
+  .font-md {
+    font-size: 3.5vw;
+  }
+  .font-sm {
+    font-size: 3vw;
+  }
+  .font-xs {
+    font-size: 2.5vw;
+  }
+  .font-xxs {
+    font-size: 3vw;
+  }
+  /* ----------*Div-full *-------------- */
+  .div-xxl-full,
+  .div-xl-full,
+  .div-lgr-full,
+  .div-lg-full,
+  .div-md-full,
+  .div-sm-full,
+  .div-xs-full,
+  .div-xxs-full {
+    width: 95%;
+  }
+  /* ----------* *-------------- */
+}
